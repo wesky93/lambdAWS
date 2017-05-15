@@ -19,7 +19,7 @@ setup(
         # 패키지 이름
         name='lambdAWS',
         # 패키지 버전 - 버전이 바뀌어야 pypi에 업로드 됩니다. 버전이 바뀌지 않으면 바뀐사항이 업로드 되지 않습니다.
-        version='0.1.3',
+        version='0.1.4',
         # 패키지 관련 홈페이지 주소
         url='https://bitbucket.org/indjdev/lambdaws',
         # 패키지의 라이센스

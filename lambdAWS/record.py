@@ -49,7 +49,7 @@ class DDBStream( Record ) :
             attr = dic
             item = { }
             for key, value in attr.items() :
-                item[ 'key' ] = deserialize( value )
+                item[ key ] = deserialize( value )
             return item
 
         raw = self.raw[ 'dynamodb' ]
